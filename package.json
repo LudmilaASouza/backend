@@ -1,0 +1,25 @@
+{
+  "name": "package-json-template",
+  "version": "1.0.0",
+  "description": "sim",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "buscaPorBrasil": "node index.js Brazil",
+    "buscaLetraB": "node index.js b",
+    "addPais": "node add.js",
+    "nomeIdade": "node nome.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LudmilaASouza/node-package-json-template.git"
+  },
+  "author": "Ludmila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LudmilaASouza/node-package-json-template/issues"
+  },
+  "homepage": "https://github.com/LudmilaASouza/node-package-json-template#readme"
+}
